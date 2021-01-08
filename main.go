@@ -23,7 +23,7 @@ func main() {
 	})
 	
 	http.HandleFunc("/dice_student", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Talha Ahmad aka tass055, Kahoot Ali taught me well")
+		fmt.Fprintf(w, "Talha Ahmad aka tass055, Kahoot Ali taught me well in DevOps 5")
 	})
 
 	i := 0
